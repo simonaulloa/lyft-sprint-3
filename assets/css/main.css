@@ -1,5 +1,6 @@
 body{
-	margin: 0 auto;
+	margin: 0;
+
 	font-family: 'Roboto', sans-serif;
 }
 
@@ -7,6 +8,8 @@ body{
 	position: fixed;
 	width: 100%;
 	height: 70px;
+    margin: 0;
+    padding: 0;
 	background-color: #E54E79;
 	z-index: 2;
 }
@@ -16,19 +19,23 @@ body{
     margin-top: 11px;
 
 }
-.logo, ul, li, a {
-	margin-left: 80px;
+ul, li, a {
+    padding: 5px 46px;
+    float: right;
     color: #EDE9E2;
-    display: inline-block;
+    display: inline;
     text-decoration: none;
 }
+.li a:hover {
+    background-color: #E56385;
+    color: white;
+}
+
 .conte{
 	position: relative;
 }
 .turn{
-    margin-left: 786px;
-    /* float: right; */
-    /* align-content: center; */
+    margin-left: 849px;
     background-color: #ede9e2;
     width: 500px;
     height: 400px;
@@ -80,7 +87,7 @@ body{
 }
 .blanco{
     font-size: 47px;
-    padding: 40px;
+    padding: 15px 0 15px 0;
     margin-top: 70px;
     background-color: #fff;
     width: 100%; 
@@ -89,23 +96,25 @@ body{
     position: absolute;
 }
 .inp2{
-	width: 30%;
+	width: 44%;
     margin: 8px 8px 8px px;
  	color: #a8a7a6;
     border: none;
     border-bottom: 2px solid #75726C;
     background-color: transparent; 
 }
+.icono{
+    font-size: 20px !important;
+    padding: 5px;
+}
 
 .blancoauto{
 	font-size: 10px;
     padding: 120px;
     margin-left: 200px;
-    margin-top: 290px;
+    margin-top: 240px;
     background-color: #fff;
     width: 700px;
-    /* text-align: center; */
-    /* color: #75726C; */
     position: absolute;
 }
 .foto{
@@ -115,6 +124,20 @@ body{
     background-attachment: fixed;
     background-size: cover;
     z-index: -1;
+}
+.verde1{
+    background-color: #00B2A9;
+    border-radius: 10px;
+    color: #EDE9E2;
+    height: 31px;
+    text-align: center;
+    margin-top: 30px;
+    width: 100%;
+    outline: none;
+    border: 0;
+}
+.b{
+    float: none;
 }
 .final1{
 	float: left;
@@ -143,16 +166,25 @@ p.texto3 {
     color: #EDE9E2;
     margin-left: 120px;
 }
-#ultimolink{
-    margin-left: 253px;
+.caja{
+    margin: 0 !important;
     color: #EDE9E2;
     display: block;
     text-decoration: none;
 }
-.fa {
-    display: inline-block;
-    font-size: 30px;
-    text-rendering: auto;
+.ultimolink{
+    float: left;
+}
+.fondo{
+    padding-top: 20px !important;
+    text-align: center;
+    color: #EDE9E2;
+    font-size: 12px;
+    margin-top: 150px;
+    position: absolute;
+    width: 100%;
+    height: 50px;
+    background-color: #6b6a67;
 }
 /*
 Colors: 
