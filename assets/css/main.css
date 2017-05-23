@@ -88,6 +88,15 @@ body{
     color: #75726C;
     position: absolute;
 }
+.inp2{
+	width: 30%;
+    margin: 8px 8px 8px px;
+ 	color: #a8a7a6;
+    border: none;
+    border-bottom: 2px solid #75726C;
+    background-color: transparent; 
+}
+
 .blancoauto{
 	font-size: 10px;
     padding: 120px;
@@ -140,8 +149,11 @@ p.texto3 {
     display: block;
     text-decoration: none;
 }
-
-
+.fa {
+    display: inline-block;
+    font-size: 30px;
+    text-rendering: auto;
+}
 /*
 Colors: 
 #E54E79; rosado 
